@@ -12,6 +12,18 @@
     border: 1px dashed black;
 }
 
+.white-border {
+    border: 1px dashed white;
+}
+
+/* UTILITYS */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* HEADER */
 
 header {
@@ -19,7 +31,7 @@ header {
     padding-top: 20px;
     display: flex;
     justify-content: center;
-
+    
     /* DEBUG */
     background-color: #add8e6;
 }
@@ -36,8 +48,8 @@ header {
 
      /* DEBUG */
      background-color: #daa520;
-     height: 40PX;
-     width: 60%;
+     height: 40px;
+     width: 900px;
 }
 
 .navigation-menu li {
@@ -52,7 +64,7 @@ header {
     flex-grow: 2;
 }
 
-.button {
+.login {
     flex-grow: 1;
     text-align: right;
     padding-right: 10px;
@@ -67,13 +79,10 @@ header {
     /* DEBUG */
     height: 700px;
 }
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    /* DEBUG */
-    height: 400px;
+.section {
+     /* DEBUG */
+     height: 400px;
 }
 
 /* First section */
@@ -83,40 +92,96 @@ header {
 }
 
 .fucsia-container {
+    /* DEBUG */
     background-color: #ee82ee;
-    width: 800px;
+    width: 700px;
     height: 300px;
 }
 
 /* Second section */
 .azure-container {
+    /* DEBUG */
     background-color:#1e90ff ;
     width: 600px;
     height: 300px;
 }
 
 .pink-container {
+    /* DEBUG */
     background-color: #ffc0cb;
     width: 300px;
     height: 300px;
 }
 
+/* Third section */
 .third {
     /* DEBUG */
     background-color: #d3d3d3;    
 }
 
+/* Fifth section */
 .fifth {
     /* DEBUG */
     background-color: #d3d3d3;
 }
 
-.green-container{
+.green-container {
+    /* DEBUG */
     background-color: #228b22;
     width: 900px;
     height: 600px;
 }
 
+/* Sixth section */
 
+.sixth {
+    /* DEBUG */
+    background-color: #23272a;
+    border-bottom: 3px solid #d3d3d3;
+}
+
+.salmon {
+    /* DEBUG */
+    background-color: #f08080;
+    width: 300px;
+    height: 350px;
+}
+
+.acqua-green {
+    /* DEBUG */
+    background-color: #20b2aa;
+    width: 150px;
+    height: 350px;
+}
 
 /* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* DEBUG */
+    background-color: #23272a;
+    height: 100px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* DEBUG */
+    height: 80px;
+    width: 900px;
+    background-color: #7fffd4;
+}
+
+.btn {
+    /* DEBUG */
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffb6c1;
+    height: 40px;
+    width: 60px;
+}
