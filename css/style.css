@@ -24,10 +24,6 @@ header {
     background-color: #add8e6;
 }
 
-.section {
-    height: 400px;
-}
-
 .logo {
     padding-left: 10px;
     flex-grow: 1;  
@@ -63,12 +59,25 @@ header {
 }
    
 /* MAIN */
-
-/* First section */
-.first {
+.hight-section{
     display: flex;
     justify-content: center;
     align-items: center;
+   
+    /* DEBUG */
+    height: 700px;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* DEBUG */
+    height: 400px;
+}
+
+/* First section */
+.first {
     /* DEBUG */
     background-color: #00008b;
 }
@@ -80,12 +89,6 @@ header {
 }
 
 /* Second section */
-.second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 .azure-container {
     background-color:#1e90ff ;
     width: 600px;
@@ -96,8 +99,24 @@ header {
     background-color: #ffc0cb;
     width: 300px;
     height: 300px;
-
 }
+
+.third {
+    /* DEBUG */
+    background-color: #d3d3d3;    
+}
+
+.fifth {
+    /* DEBUG */
+    background-color: #d3d3d3;
+}
+
+.green-container{
+    background-color: #228b22;
+    width: 900px;
+    height: 600px;
+}
+
 
 
 /* FOOTER */
