@@ -17,10 +17,15 @@
 header {
     height: 80px;
     padding-top: 20px;
-    padding-left: 400px;
+    display: flex;
+    justify-content: center;
 
     /* DEBUG */
     background-color: #add8e6;
+}
+
+.section {
+    height: 400px;
 }
 
 .logo {
@@ -36,10 +41,10 @@ header {
      /* DEBUG */
      background-color: #daa520;
      height: 40PX;
-     width: 70%;
+     width: 60%;
 }
 
-.navigation-menu li{
+.navigation-menu li {
     padding: 10px;
     list-style-type: none;
 }
@@ -51,13 +56,48 @@ header {
     flex-grow: 2;
 }
 
-.button{
+.button {
     flex-grow: 1;
     text-align: right;
     padding-right: 10px;
 }
    
-
 /* MAIN */
+
+/* First section */
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: #00008b;
+}
+
+.fucsia-container {
+    background-color: #ee82ee;
+    width: 800px;
+    height: 300px;
+}
+
+/* Second section */
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.azure-container {
+    background-color:#1e90ff ;
+    width: 600px;
+    height: 300px;
+}
+
+.pink-container {
+    background-color: #ffc0cb;
+    width: 300px;
+    height: 300px;
+
+}
+
 
 /* FOOTER */
